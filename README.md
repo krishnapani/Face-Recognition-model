@@ -1,0 +1,3 @@
+# Face-Recognition-model
+A facial recognition system using Python. This project utilises machine learning techniques to perform face recognition on the LFW dataset
+The code first fetches the dataset and preprocesses it by splitting it into a training and testing set. It then applies Principal Component Analysis (PCA) to reduce the dimensionality of the data. A neural network classifier is trained on the transformed training data. The trained model is then used to predict the labels of the test data. The classification results are evaluated using a classification report. Additionally, the code visualizes the predicted faces and eigenfaces (principal components) using matplotlib
